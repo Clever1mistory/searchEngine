@@ -30,8 +30,8 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone 
-   cd 
+   git clone git@github.com:Clever1mistory/searchEngine.git
+   cd searchEngine
    ```
 2. Убедитесь, что у вас установлен Maven и Java 17.
 

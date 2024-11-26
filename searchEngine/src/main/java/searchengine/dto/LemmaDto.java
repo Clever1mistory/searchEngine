@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class LemmaDto {
-    String lemma;
-    Integer frequency;
+    private String lemma;
+    private Integer frequency;
 }

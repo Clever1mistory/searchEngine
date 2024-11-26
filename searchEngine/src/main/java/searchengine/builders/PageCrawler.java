@@ -2,7 +2,7 @@ package searchengine.builders;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import searchengine.dto.PageDto;
-import searchengine.utils.ConnectionProperties;
+import searchengine.config.ConnectionProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

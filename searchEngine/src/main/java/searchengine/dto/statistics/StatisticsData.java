@@ -7,6 +7,6 @@ import java.util.List;
 
 @Value
 public class StatisticsData {
-    private TotalStatistics total;
-    private List<DetailedStatisticsItem> detailed;
+    TotalStatistics total;
+    List<DetailedStatisticsItem> detailed;
 }

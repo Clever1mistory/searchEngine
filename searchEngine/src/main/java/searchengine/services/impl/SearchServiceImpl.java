@@ -51,13 +51,10 @@ public class SearchServiceImpl implements SearchService {
                     return result;
                 }
             } else {
-                try {
-                    throw new Exception();
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
+                throw new RuntimeException("Can not find lemma in search text");
                 }
             }
-        }
+
         log.info("Поисковый запрос обработан.");
         return searchData;
     }
